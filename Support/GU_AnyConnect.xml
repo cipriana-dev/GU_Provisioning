@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AnyConnectProfile xmlns="http://schemas.xmlsoap.org/encoding/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schemas.xmlsoap.org/encoding/ AnyConnectProfile.xsd">
+	<ClientInitialization>
+		<UseStartBeforeLogon UserControllable="false">false</UseStartBeforeLogon>
+		<AutomaticCertSelection UserControllable="true">true</AutomaticCertSelection>
+		<ShowPreConnectMessage>false</ShowPreConnectMessage>
+		<CertificateStore>All</CertificateStore>
+		<CertificateStoreOverride>false</CertificateStoreOverride>
+		<ProxySettings>Native</ProxySettings>
+		<AllowLocalProxyConnections>true</AllowLocalProxyConnections>
+		<AuthenticationTimeout>45</AuthenticationTimeout>
+		<AutoConnectOnStart UserControllable="true">false</AutoConnectOnStart>
+		<MinimizeOnConnect UserControllable="true">true</MinimizeOnConnect>
+		<LocalLanAccess UserControllable="true">true</LocalLanAccess>
+		<ClearSmartcardPin UserControllable="true">true</ClearSmartcardPin>
+		<IPProtocolSupport>IPv4,IPv6</IPProtocolSupport>
+		<AutoReconnect UserControllable="true">true
+			<AutoReconnectBehavior UserControllable="false">ReconnectAfterResume</AutoReconnectBehavior>
+		</AutoReconnect>
+		<AutoUpdate UserControllable="false">true</AutoUpdate>
+		<RSASecurIDIntegration UserControllable="false">Automatic</RSASecurIDIntegration>
+		<WindowsLogonEnforcement>SingleLocalLogon</WindowsLogonEnforcement>
+		<WindowsVPNEstablishment>AllowRemoteUsers</WindowsVPNEstablishment>
+		<AutomaticVPNPolicy>false</AutomaticVPNPolicy>
+		<PPPExclusion UserControllable="false">Disable
+			<PPPExclusionServerIP UserControllable="false"></PPPExclusionServerIP>
+		</PPPExclusion>
+		<EnableScripting UserControllable="true">true
+			<TerminateScriptOnNextEvent>false</TerminateScriptOnNextEvent>
+			<EnablePostSBLOnConnectScript>false</EnablePostSBLOnConnectScript>
+		</EnableScripting>
+		<CertificateMatch>
+			<KeyUsage>
+				<MatchKey>Non_Repudiation</MatchKey>
+				<MatchKey>Digital_Signature</MatchKey>
+			</KeyUsage>
+			<ExtendedKeyUsage>
+				<ExtendedMatchKey>ClientAuth</ExtendedMatchKey>
+			</ExtendedKeyUsage>
+		</CertificateMatch>
+		<BackupServerList>
+			<HostAddress>guvpn-dr.georgetown.edu</HostAddress>
+		</BackupServerList>
+		<EnableAutomaticServerSelection UserControllable="true">false
+			<AutoServerSelectionImprovement>20</AutoServerSelectionImprovement>
+			<AutoServerSelectionSuspendTime>4</AutoServerSelectionSuspendTime>
+		</EnableAutomaticServerSelection>
+		<RetainVpnOnLogoff>false
+		</RetainVpnOnLogoff>
+		<AllowManualHostInput>true</AllowManualHostInput>
+	</ClientInitialization>
+	<ServerList>
+		<HostEntry>
+			<HostName>Georgetown VPN</HostName>
+			<HostAddress>guvpn.georgetown.edu</HostAddress>
+		</HostEntry>
+	</ServerList>
+</AnyConnectProfile>

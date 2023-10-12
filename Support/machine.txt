@@ -1,0 +1,22 @@
+; ----------------------------------------------------------------------
+; PARSING Computer POLICY
+; Source file:  c:\windows\system32\grouppolicy\machine\registry.pol
+
+Computer
+Software\Policies\Microsoft\Windows\OneDrive
+DisableFileSyncNGSC
+DWORD:1
+
+Computer
+Software\Policies\Microsoft\Windows\Personalization
+LockScreenImage
+SZ:c:\\gu\\GU_LockScreen.jpg
+
+Computer
+Software\Policies\Microsoft\Windows\Personalization
+LockScreenOverlaysDisabled
+DWORD:1
+
+; PARSING COMPLETED.
+; ----------------------------------------------------------------------
+

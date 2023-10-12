@@ -1,0 +1,2 @@
+Commandline: taniumclientinstall.exe /S
+Notes: tanium-init.dat must be in the same folder. Use a capital "S" in /S

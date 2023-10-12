@@ -1,0 +1,38 @@
+ Volume in drive C has no label.
+ Volume Serial Number is 7AE5-0A3E
+
+ Directory of C:\GU\Support
+
+07/05/2023  05:24 PM    <DIR>          .
+07/05/2023  03:09 PM    <DIR>          ..
+12/01/2017  05:35 PM         1,018,087 Campus_0016.jpg
+11/28/2022  10:26 PM             3,216 Enable-BitLocker.xml
+11/28/2022  10:26 PM             6,398 Export-BitLocker RecoveryPassword.xml
+05/17/2019  03:48 PM             3,407 gulayout-5-19.xml
+05/04/2023  02:48 PM             2,843 GU_AnyConnect.xml
+01/14/2022  06:49 PM           381,215 GU_Default.ico
+03/28/2019  02:06 PM           122,114 GU_Default.jpg
+11/30/2017  06:16 PM           196,062 GU_Lg.ico
+12/01/2017  05:35 PM         1,018,087 GU_LockScreen.jpg
+01/02/2018  08:43 PM             1,280 gu_standard.deskthemepack
+11/08/2018  10:10 PM               330 GU_Theme.reg
+04/13/2022  02:30 PM             3,154 imagereport.ps1
+05/16/2019  04:33 PM                76 importtiles-5-19.ps1
+01/03/2018  10:03 PM           410,088 LGPO.exe
+01/03/2018  10:03 PM           638,115 LGPO.pdf
+08/29/2022  04:17 PM               398 local-account.ps1
+05/30/2023  04:55 PM            77,682 LocalState.zip
+11/08/2018  10:10 PM               436 lockscreen.reg
+06/11/2019  12:41 PM               573 machine.txt
+06/16/2023  10:11 AM            36,864 ou.db
+05/04/2023  02:48 PM               560 preferences.xml
+02/16/2023  11:04 PM            17,590 RenameAndJoin.ps1
+11/30/2022  06:51 PM            27,399 seal.jpg
+11/08/2018  10:11 PM                45 SetLockScreen.cmd
+05/30/2020  04:02 PM         1,534,464 SQLite.Interop.dll
+07/05/2023  05:24 PM                 0 supp.txt
+05/30/2020  04:02 PM           364,032 System.Data.SQLite.dll
+09/25/2018  02:36 PM             1,489 TSS_bg_config.bgi
+01/31/2023  06:48 PM               256 winverify.reg
+              29 File(s)      5,866,260 bytes
+               2 Dir(s)  360,582,258,688 bytes free

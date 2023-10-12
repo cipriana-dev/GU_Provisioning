@@ -1,0 +1,1 @@
+Commandline: msiexec.exe /I "NessusAgent-10.0.0-x64.msi" /QN NESSUS_GROUPS="Georgetown" NESSUS_SERVER="cloud.tenable.com:443" NESSUS_KEY=4a36cc3fd573aa2137b92a38088a3681b802067e8beedde2241bfc683e07e707

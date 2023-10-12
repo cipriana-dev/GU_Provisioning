@@ -1,0 +1,2 @@
+Commandline: WindowsSensor-6.exe /install /quiet /norestart CID=C9A34299881341069B3BA74B3291A28D-1D
+Detection: Application and version exist
